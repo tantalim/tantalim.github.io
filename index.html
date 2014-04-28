@@ -1,126 +1,491 @@
 <!DOCTYPE html>
-<html lang="en" class="js cssanimations csstransitions">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Tantalim - Rapid Application Development Platform">
-    <!--<link href="assets/ico/favicon.png" rel="shortcut icon">-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Bootstack - Bootstrap 3 Theme">
+		<meta name="keywords" content="">
+		<meta name="author" content="Daniely Wright">
+		<link href="assets/ico/favicon.png" rel="shortcut icon" >
+		<title>Tantalim - Rapid Application Development Platform</title>
 
-    <title>Tantalim - Rapid Application Development Platform</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-</head>
-<body data-spy="scroll" data-target="#my-nav">
-<div id="navigation" class="navbar navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-align-left logo"></span>
-                <b>TANTALIM</b></a>
-        </div>
+		<!-- Bootstrap core CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/responsive.css" rel="stylesheet">
+		<link href="assets/css/linecons.css" rel="stylesheet">
+		<link href="assets/css/social-icons.css" rel="stylesheet">
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script src="assets/js/modernizr.custom.js"></script>
+	</head>
 
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav cl-effect-13">
-                <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
-                <li class=""><a href="#features" class="smoothScroll">Features</a></li>
-                <li class=""><a href="#about" class="smoothScroll">About</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- /container -->
-</div>
+	<body data-spy="scroll" data-offset="0" data-target="#navigation">
 
-<section class="jumbotron" id="header">
-    <div class="container" style="opacity: 1;">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="glyphicon glyphicon-align-left logo">
-                </div>
-                <h1 style="opacity: 1; padding-top: 0px;">Welcome to Tantalim</h1>
-                <p style="opacity: 1;">Rapidly build enterprise, web-based applications for relational databases in a matter of minutes.</p>
-            </div>
-        </div>
-    </div>
-</section>
+		<!-- Fixed navbar -->
+		<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><licon class="li_data"></licon> <b>TANTALIM</b></a>
+				</div>
 
-<section id="testimonials" class="cbp-so-section cbp-so-init">
-    <div class="container cbp-so-side cbp-so-side-top">
-        <h1>What my clients say</h1>
-        <div class="testimonials">
-
-            <div id="da-slider" class="da-slider">
-
-                <div class="da-slide da-slide-current">
-                    <div class="da-img">
-                        <div class="round-outline">
-                            <img class="round-photo" src="assets/photo-small-1.png" alt="image01">
-                        </div>
-                    </div>
-                    <p class="block-cite">Silviu Stefu, CEO Pixelglow</p>
-                    <blockquote><p>This is a simple testimonial paragraph to show you what my clients said about me and my services. Feel free to navigate to left or right to read more quotes like this one.</p></blockquote>
-                </div>
-
-                <div class="da-slide">
-                    <div class="da-img">
-                        <div class="round-outline">
-                            <img class="round-photo" src="assets/photo-small-2.png" alt="image01">
-                        </div>
-                    </div>
-                    <p class="block-cite">James Corner, CTO at Adove Photostop</p>
-                    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend felis, vel venenatis tellus. Ut gravida ultrices est, vitae pharetra lectus pellentesque eget. Fusce congue justo ac neque interdum fringilla.</p></blockquote>
-                </div>
-
-                <div class="da-slide">
-                    <div class="da-img">
-                        <div class="round-outline">
-                            <img class="round-photo" src="assets/photo-small-3.png" alt="image01">
-                        </div>
-                    </div>
-                    <p class="block-cite">Jonathan Doe, founder www.mysite.com</p>
-                    <blockquote><p>Sed malesuada, elit quis ornare euismod, leo felis interdum velit, non ullamcorper tellus felis commodo nibh. Aliquam eget commodo risus. Proin lobortis purus vitae ornare accumsan. Proin lectus lacus, fringilla non tincidunt ac, mollis vitae magna.</p></blockquote>
-                </div>
-
-                <div class="da-slide">
-                    <div class="da-img">
-                        <div class="round-outline">
-                            <img class="round-photo" src="assets/photo-small-4.png" alt="image01">
-                        </div>
-                    </div>
-                    <p class="block-cite">Jane James, www.example.com</p>
-                    <blockquote><p>Praesent sed varius odio, ut ornare quam. Morbi porta sapien sed vestibulum varius. Sed vel consequat tortor. Pellentesque nec consequat libero, in ultrices libero. Donec eget libero molestie, iaculis nisl in, gravida purus.</p></blockquote>
-                </div>
-
-                <nav class="da-arrows">
-                    <span class="da-arrows-prev"></span>
-                    <span class="da-arrows-next"></span>
-                </nav>
-
-                <nav class="da-dots"><span class="da-dots-current"></span><span></span><span></span><span></span></nav></div>
-
-        </div>
-    </div>
-</section>
-
-<!-- Footer -->
-<div class="footer">
-    <div class="container">
-        <p>&copy; Tantalim - All rights reserved</p>
-    </div>
-</div>
-<!-- End of Footer -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav cl-effect-13">
+						<li class="active"><a href="#home" class="smoothScroll">Home</a></li>
+						<li><a href="#features" class="smoothScroll">Features</a></li>
+						<li><a href="#pricing" class="smoothScroll">Pricing</a></li>
+						<li><a href="#contact" class="smoothScroll">About</a></li>
+					</ul>
+				</div><!--/nav-collapse -->
+			</div><!-- /container -->
+		</div><!-- /fixed-navbar -->
+		
+		<!-- Header Wrap -->
+		<section id="home" name="home"></section>
+		<div id="headerwrap">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-lg-12">
+						<h1>Welcome To <b>Tantalim</b></h1>
+						<h3>Rapidly build enterprise, web-based applications for relational databases in a matter of minutes.</h3>
+						<br>
+					</div>
+					
+					<div class="col-lg-2 hidden-xs hidden-sm hidden-md">
+						<h5>Automate business processes</h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<img src="assets/img/arrow-left.png" alt="">
+					</div>
+					<div class="col-lg-8">
+						<img class="img-responsive" src="assets/img/app-bg.png" alt="">
+						<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+						<a href="#features" type="submit" class="btn btn-lg btn-theme smoothScroll">LEARN MORE</a>
+					</div>
+					<div class="col-lg-2 hidden-xs hidden-sm hidden-md">
+						<br>
+						<img class="pad-top" src="assets/img/arrow-right.png" alt="">
+						<h5>Collaborate in the cloud</h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+				</div>
+			</div> <!-- /container -->
+		</div><!-- /headerwrap -->
 
 
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-<script type="text/javascript" src="js/jquery.cslider.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.mixitup.js"></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="js/cbpScroller.js"></script>
-<script type="text/javascript" src="js/classie.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
+		<!-- Intro Wrap -->
+		<div id="intro">
+			<div class="container">
+				<div class="row text-center">
+					<h2>Proven Success</h2>
+					<hr>
+					<br>
+					<br>
+					<div class="col-lg-3">
+						<licon class="li_user"></licon>
+						<h3>Professional Services</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-lg-3">
+						<licon class="li_banknote"></licon>
+						<h3>Cost Effective</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-lg-3">
+						<licon class="li_data"></licon>
+						<h3>Scalable and Adaptable</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-lg-3">
+						<licon class="li_like"></licon>
+						<h3>Easy to Use</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+				</div>
+				<br>
+			</div> <!-- /container -->
+		</div><!-- /introwrap -->
 
-</body>
+	
+		<!-- Features Wrap -->
+		<section id="features" name="features"></section>
+		<div id="featureswrap">
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center">Features</h2>
+					<hr>
+					<br>
+					<br>
+					<div class="col-lg-6">
+						<img class="img-responsive" src="assets/img/mobile.png" alt="">
+					</div>
+					
+					<div class="col-lg-6">
+						<br>
+						<!-- Accordion -->
+						<div class="accordion ac" id="accordion2">
+							<div class="accordion-group active">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+									<i class="fa fa-cloud"></i> Collaborate in the cloud
+									</a>
+								</div><!-- /accordion-heading -->
+								<div id="collapseOne" class="accordion-body collapse in">
+									<div class="accordion-inner">
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+									<i class="fa fa-mail-forward"></i> Get started fast
+									</a>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>
+
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+									<i class="fa fa-bar-chart-o"></i> Deliver real time insights
+									</a>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="accordion-inner">
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>
+							
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+									<i class="fa fa-dashboard"></i> Automate business processes
+									</a>
+								</div>
+								<div id="collapseFour" class="accordion-body collapse">
+									<div class="accordion-inner">
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div><!-- /accordion-inner -->
+								</div><!-- /collapse -->
+							</div><!-- /accordion-group -->
+							<br>			
+						</div><!-- /accordion -->
+					</div>
+				</div><!-- /row -->
+				<br><br><br>
+				<div class="row">
+					<h2 class="text-center">Multi Useful Components</h2>
+					<hr><br><br>
+					<div class="col-lg-6">
+						<br><br>
+						<h4><i class="fa fa-cogs"></i> Create customized business apps</h4>
+						<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						<br><br>
+					</div>
+
+					<div class="col-lg-6">
+						<img class="img-responsive" src="assets/img/tablet.png" alt="">
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+			</div><!-- /container -->
+		</div><!-- /featureswrap -->
+
+
+		<!-- Divider 1 Section -->
+		<div id="divider01">
+			<div class="container">
+				<div class="row text-center">
+					<div id="carousel-example-generic" class="carousel slide">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<h3>"Working with Bootstack was amazing. Their team is incredible."</h3>
+								<h4>John Doe, <em>A Company</em></h4>
+							</div>
+							<div class="item">
+								<h3>"Bootstack has helped my team build amazing products. Amazing team."</h3>
+								<h4>Jane Doe, <em>A Company</em></h4>
+							</div>
+						</div><!-- /carousel-inner -->
+						<br>
+						<br>
+						<br>
+						<!-- Indicators - Uncomment for indicators to show
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						</ol> -->
+					</div><!-- /carousel-example -->
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- /divider01 -->
+
+		
+		<!-- Pricing Section -->
+		<section id="pricing" name="pricing"></section>
+		<div id="pricingwrap">
+			<div class="container text-center">
+				<br>
+				<h2>Our Pricing Options</h2>
+				<hr><br><br>
+				<div class="row">
+					<div class="col-xs-12 col-md-3">
+						<div class="panel panel-custom">
+							<div class="panel-heading">
+								<h3 class="panel-title">Starter</h3>
+							</div>
+							<div class="panel-body">
+								<div class="the-price">
+									<h2>$9<span class="subscript">/mo</span></h2>
+									<small>1 month FREE Trial</small>
+								</div>
+								<table class="table">
+									<tr>
+										<td>1 Account</td>
+									</tr>
+									<tr>
+										<td>1 Project</td>
+									</tr>
+									<tr>
+										<td>50K API Access</td>
+									</tr>
+									<tr>
+										<td>100MB Storage</td>
+									</tr>
+									<tr>
+										<td>Custom Cloud Services</td>
+									</tr>
+									<tr>
+										<td>Weekly Reports</td>
+									</tr>
+								</table>
+							</div>
+							<div class="panel-footer">
+								<a href="#" class="btn btn-theme" role="button">Sign Up</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-md-3">
+						<div class="panel panel-custom">
+							<div class="panel-heading">
+								<h3 class="panel-title">Standard</h3>
+							</div>
+							<div class="panel-body">
+								<div class="the-price">
+									<h2>$19<span class="subscript">/mo</span></h2>
+									<small>1 month FREE Trial</small>
+								</div>
+								<table class="table">
+									<tr>
+										<td>2 Accounts</td>
+									</tr>
+									<tr>
+										<td>5 Projects</td>
+									</tr>
+									<tr>
+										<td>100K API Access</td>
+									</tr>
+									<tr>
+										<td>200MB Storage</td>
+									</tr>
+									<tr>
+										<td>Custom Cloud Services</td>
+									</tr>
+									<tr>
+										<td>Weekly Reports</td>
+									</tr>
+								</table>
+							</div>
+							<div class="panel-footer">
+								<a href="#" class="btn btn-theme" role="button">Sign Up</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-md-3">
+						<div class="panel panel-custom">
+							<div class="panel-heading">
+								<h3 class="panel-title">Premium</h3>
+							</div>
+							<div class="panel-body">
+							<div class="the-price">
+								<h2>$39<span class="subscript">/mo</span></h2>
+								<small>1 month FREE Trial</small>
+							</div>
+							<table class="table">
+								<tr>
+									<td>5 Accounts</td>
+								</tr>
+								<tr>
+									<td>20 Projects</td>
+								</tr>
+								<tr>
+									<td>300K API Access</td>
+								</tr>
+								<tr>
+									<td>500MB Storage</td>
+								</tr>
+								<tr>
+									<td>Custom Cloud Services</td>
+								</tr>
+								<tr>
+									<td>Weekly Reports</td>
+								</tr>
+							</table>
+							</div>
+							<div class="panel-footer">
+								<a href="#" class="btn btn-theme" role="button">Sign Up</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-md-3">
+						<div class="panel panel-custom">
+							<div class="panel-heading">
+								<h3 class="panel-title">Enterprise</h3>
+							</div>
+							<div class="panel-body">
+								<div class="the-price">
+									<h2>$59<span class="subscript">/mo</span></h2>
+									<small>1 month FREE Trial</small>
+								</div>
+								<table class="table">
+									<tr>
+										<td>10 Accounts</td>
+									</tr>
+									<tr>
+										<td>50 Projects</td>
+									</tr>
+									<tr>
+										<td>500K API Access</td>
+									</tr>
+									<tr>
+										<td>1GB Storage</td>
+									</tr>
+									<tr>
+										<td>Custom Cloud Services</td>
+									</tr>
+									<tr>
+										<td>Weekly Reports</td>
+									</tr>
+								</table>
+							</div>
+							<div class="panel-footer">
+								<a href="#" class="btn btn-theme" role="button">Sign Up</a>
+							</div>
+						</div>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- /pricingwrap -->
+
+
+		<!-- Divider 2 Section -->
+		<div id="divider02">
+			<div class="container text-center">
+				<h3>Start your 30-day free trial today.</h3>
+				<a href="#" type="button" class="btn btn-lg btn-theme2">Get Started</a>
+			</div>
+		</div><!-- /divider02 -->
+
+		  
+		<!-- Footer Wrap -->
+		<section id="contact" name="contact"></section>
+		<div id="footerwrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<h3>Contact Us</h3>
+						<br>
+						<p><i class="fa fa-map-marker"></i> Some Address 373, Palo Alto, CA <br/>
+							<i class="fa fa-phone"></i> (800) 373-7733 <br/>
+							<i class="fa fa-envelope-o"></i> <a href="mailto:support@bootstacktheme.com">support@bootstacktheme.com</a>
+						</p>
+					</div>
+					
+					<div class="col-lg-4">
+						<h3>We Are Social</h3>
+						<br>
+						<div id="social">
+							<a href="#" rel="tooltip" title="Facebook" class="facebook">Facebook</a>
+							<a href="#" rel="tooltip" title="Twitter" class="twitter">Twitter</a>
+							<a href="#" rel="tooltip" title="RSS" class="rss">RSS</a>
+							<a href="#" rel="tooltip" title="Github" class="github">Github</a>
+							<a href="#" rel="tooltip" title="LinkedIn" class="linkedin">LinkedIn</a>
+							<a href="#" rel="tooltip" title="Pintrest" class="pintrest">Pintrest</a>
+							<a href="#" rel="tooltip" title="Vimeo" class="vimeo">Vimeo</a>
+							<a href="#" rel="tooltip" title="YouTube" class="youtube">YouTube</a>
+						</div>
+					</div>
+					
+					<div class="col-lg-4">
+						<h3>Newsletter</h3>
+						<br>
+						<p>Subscribe to our newsletter and be the first to know our latest updates.</p>
+						<div class="form-inline">
+							<input type="text" class="form-control" placeholder="Your email">
+							<button class="btn btn-theme" type="button">Subscribe</button>
+						</div>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- /footerwrap -->
+
+
+		<!-- Copyright Wrap -->
+		<div id="copywrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-10">
+                        <p>Copyright &copy; Tantalim - All rights reserved</p>
+						<p>Copyright &copy;2014 Bootstack Theme. All Rights Reserved.</p>
+					</div>
+					<div class="col-lg-2">
+						<p><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Legal</a></p>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- /copywrap (copyright) -->
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="assets/js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/smoothscroll.js"></script>
+		<script>
+			$('.carousel').carousel({
+				interval: 3500,
+				pause: "none"
+			})
+		</script>
+	</body>
 </html>
