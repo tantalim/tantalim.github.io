@@ -263,19 +263,19 @@ a:after {
 	color: #fff;
 }
 
-#divider02 {
+#demowrap {
 	background-color: #06979e;
 	height: 150px;
 	padding-top: 55px;
 }
 
-#divider02 h3 {
+#demowrap h3 {
 	color: #fff;
 	padding-right: 40px;
 }
 
-#divider02 h3,
-#divider02 button {
+#demowrap h3,
+#demowrap button {
 	display: inline;
 	vertical-align: middle;
 }
